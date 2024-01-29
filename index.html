@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Energy</title>
+        <link rel="stylesheet" href="style/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <script src="./js/index.js"></script>
+    </head>
+    <body>
+        <div id="nav">
+            <label>
+                <a id="menu-icon"><span class="material-symbols-outlined">menu</span></a>
+            </label>
+            <div id="menu" style="display: none;">
+                <a href="./pages/about.html"><p>About</p></a>
+                <a href="./pages/credits.html"><p>Credits</p></a>
+            </div>
+            
+            
+        </div>
+        <div id="title-page" class="page-container">
+             <div id="title-text">
+                <h1>Green Energy</h1>
+                <!-- <p>test</p> -->
+            </div>
+             <div id="title-image"></div>
+        </div>
+        <div class="page-container" id="info-container">
+            <div class="info-box">
+                <h3>Grants</h3>
+                <p>Georgia will pay you to go green!</p>
+                <div class="learn-icon-wrap">
+                    <span class="learn-more-icon material-symbols-outlined">
+                        attach_money
+                    </span>
+                </div>
+                <div class="button-container">
+                    <a href="./pages/about.html#grant-info" class="info-link">Learn more</a>
+                </div>
+            </div>
+            <div class="info-box">
+                <h3>Planet</h3>
+                <p>Help the environment!</p>
+                <span class="learn-more-icon material-symbols-outlined">
+                    public
+                </span>
+                <div class="button-container">
+                    <!-- <button class="learn-more">Learn more</button> -->
+                    <a href="./pages/about.html#environment-info" class="info-link">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <div class="page-container" id="contact-container">
+            <div id="contact-box">
+                <h3>Contact</h3><br>
+                <textarea name="subject" id="subject" cols="1" rows="1" placeholder="Subject" required></textarea><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea><br>
+                <button onclick="send_mail()">Contact</button>
+            </div>
+            <footer>
+                <p>Made by qdread</p>
+            </footer>
+        </div>
+        <script>
+            let subject_el = document.getElementById("subject");
+            let message_el = document.getElementById("message");
+            function send_mail() {
+                let subject_text = subject_el.value;
+                subject_text = subject_text.replace(" ", "%20");
+                console.log(subject_text);
+            }
+        </script> -->
+    </body>
+</html>

@@ -1,0 +1,28 @@
+@use 'frappe' as cat;
+
+html,body {
+    height: 100svh;
+    color: cat.$text;
+    background-color:cat.$base;
+    caret-color: cat.$rosewater;
+    font-size: 1.2em;
+}
+
+
+
+#about-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    background-color: cat.$crust;
+    border-radius: 50px;
+    flex: 1;
+    margin: auto;
+    padding: 1em;
+}
+a {
+    text-decoration: none;
+    color: cat.$rosewater;
+}

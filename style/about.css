@@ -1,0 +1,27 @@
+html, body {
+  height: 100svh;
+  color: #c6d0f5;
+  background-color: #303446;
+  caret-color: #f2d5cf;
+  font-size: 1.2em;
+}
+
+#about-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  background-color: #232634;
+  border-radius: 50px;
+  flex: 1;
+  margin: auto;
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #f2d5cf;
+}
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #c6d0f5;
+  caret-color: #f2d5cf;
+  font-size: 1em;
+  background-color: #303446;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+a {
+  color: #f2d5cf;
+}
+
+#credits {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 90%;
+  background-color: #232634;
+  border-radius: 50px;
+  flex: 1;
+  margin: auto;
+}
+
+/*# sourceMappingURL=credits.css.map */
